@@ -1,4 +1,5 @@
-function sec(a){
+#respuesta al ejercicio2
+function secConsecutiva(a){
 	var i = 0;
 	var j = 0;
 	var x = 0;
@@ -22,7 +23,8 @@ function sec(a){
 	}
 	return a.slice(x,y+1)
 }
-	
+
+#respuesta al ejercicio3	
 function del_dup(a) {
 	var a1 = [a[0]];
 	var i = 0;
@@ -34,13 +36,15 @@ function del_dup(a) {
 	}
 	return a1;
 }
-	
+
+#respuesta al ejercicio4
 function sumas(n,m){
 	var s1 = (n*(n+1))/2;
 	var s2 = (m*(m+1))/2;
 	return s2 - s1;
 }
 
+#respuesta ejercicio1
 function rev(s){
 	var r = "";
 	for (var i = 0; i < s.length; i++) {
